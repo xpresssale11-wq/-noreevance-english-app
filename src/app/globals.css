@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --bg-linen: #FAF6F0;
+  --bg-oat: #F2ECE1;
+  --accent-terracotta: #C86D51;
+  --accent-sage: #6B8E78;
+  --text-espresso: #2C2523;
+}
+
+body {
+  background-color: var(--bg-linen);
+  color: var(--text-espresso);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
